@@ -1,0 +1,378 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jelajah Bira</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- CSS Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- JS Swiper -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </head>
+  <body>
+    <!-- Navbar Start-->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo"
+        >Jelajah <span>Bira:</span> Wisata dan UMKM</a
+      >
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#wisata">Wisata</a>
+        <a href="#umkm">UMKM</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Carousel Start -->
+    <section class="swiper" id="home">
+      <!-- Wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <video autoplay muted loop playsinline>
+            <source src="asset/videopulauliukang1.mp4" type="video/mp4" />
+            Browser kamu tidak mendukung video.
+          </video>
+          <div class="caption">
+            <h1>Pulau Liukang Loe</h1>
+            <p>
+              Salah satu destinasi wisata memikat dari Desa Bira, Pulau yang
+              terkenal karena keindahan bawah lautnya yang cocok di jadikan
+              sebagai pelepas penat dari hiruk-pikuk perkotaan, selain itu,
+              Akses untuk menuju Pulau Liukang Loe menawarkan pengalaman menarik
+              bagi wisatawan
+            </p>
+            <a
+              href="detail_wisata_liukangloe.html"
+              class="btn-explore"
+              id="liukang"
+              >Telusuri Lebih Lanjut<i
+                class="icon-arrow"
+                data-feather="arrow-right"
+              ></i
+            ></a>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="asset/fotobalaiya2.jpg" alt="2" />
+          <div class="caption">
+            <h1>Balla-Ballayya</h1>
+            <p>
+              Tempat yang menjadi titik untuk dapat menikmati keindahan matahari
+              terbit dari atas tebing
+            </p>
+            <a
+              href="detail_wisata_ballaballa.html"
+              class="btn-explore"
+              id="ballayya"
+              >Telusuri Lebih Lanjut<i
+                class="icon-arrow"
+                data-feather="arrow-right"
+              ></i
+            ></a>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="asset/fotopuncak1.jpg" alt="3" />
+          <div class="caption">
+            <h1>Puncak Pua' Janggo'</h1>
+            <p>
+              Menjadi tempat untuk dapat melihat bira dari atas bukit dengan
+              pemandangan pelabuhan tanjung bira dan pulau-pulau di sekitar bira
+            </p>
+            <a
+              href="detail_wisata_puncakpuajanggo.html"
+              class="btn-explore"
+              id="puncak"
+              >Telusuri Lebih Lanjut<i
+                class="icon-arrow"
+                data-feather="arrow-right"
+              ></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <!-- Optional controls -->
+      <div class="swiper-pagination"></div>
+    </section>
+    <!-- Carousel End -->
+
+    <!-- About Start -->
+    <section class="about-container" id="about">
+      <div class="about-data animate-left active">
+        <h2>Tentang Desa Bira</h2>
+        <p>
+          Desa Bira merupakan salah satu desa berada dibagian timur selatan kota
+          Bulukumba dengan jarak tempuh kurang lebih 40 km dari kota bulukumba,
+          13 km dari ibu kota kecamatan dan merupakan desa Pariwisata andalan
+          kota Bulukumba. Desa Bira terdiri atas empat (4) Kewilayahan/dusun
+          yakni Dusun Pungkarese, Dusun Birakeke, Dusun Tanetang dan Dusun Pulau
+          Liukangloe. Sejarah penamaan Desa Bira nenurut legendaris terdahulu
+          kata Bira adalah berasal dari tumbuhan sejenis keladi yang biasanya
+          tumbuh dipinggiran pusat permadian umum kampung Biralohe dan Kampung
+          Birakeke dan pendapat kedua disamping sebagai tumbuhan keladi juga
+          Bira merupakan air yang banyak dengan mengambil nama dulu dengan
+          ERELOHE artinya “sumber air yang banyak”.
+        </p>
+        <a
+          href="https://www.desabira.com/sejarah-desa/"
+          class="btn-explore"
+          id="webdesa"
+        >
+          Telusuri Lebih Lanjut
+          <i class="icon-arrow" data-feather="arrow-right"></i>
+        </a>
+      </div>
+
+      <div class="about-image animate-right active">
+        <img src="asset/BIRA ADM.jpg" alt="Peta Desa Bira" />
+      </div>
+    </section>
+    <!-- About End -->
+
+    <!-- Card Wisata Start -->
+    <section id="wisata">
+      <div class="header-wisata">
+        <h2>Jelajahi Keindahan Desa Bira</h2>
+        <p>
+          Dari pantai menawan hingga budaya yang kental – semuanya ada di sini.
+        </p>
+      </div>
+      <div class="card-container">
+        <div class="card">
+          <img src="asset/panrang/Panrang1.jpg" alt="Card Image" />
+          <div class="card-content">
+            <h3>Pantai Panrangluhu</h3>
+            <p>
+              Sebuah destinasi wisata pantai Desa Bira yang menawarkan keindahan
+              pasir putih dan air lautnya yang jernih kebiruan menarik banyak
+              wisatawan untuk berenang, atau sekadar bersantai menikmati
+              pemandangan.
+            </p>
+            <a href="detail_wisata_panrangluhu.html">
+              <button>Selengkapnya</button>
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="asset/liukang/fotoliukang1.jpg" alt="Card Image" />
+          <div class="card-content">
+            <h3>Pulau Liukang Loe</h3>
+            <p>
+              Salah satu destinasi wisata memikat dari Desa Bira, Pulau yang
+              terkenal karena keindahan bawah lautnya yang cocok di jadikan
+              sebagai pelepas penat dari hiruk-pikuk perkotaan.
+            </p>
+            <a href="detail_wisata_liukangloe.html">
+              <button>Selengkapnya</button>
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="asset/fotobalaiya1.jpg" alt="Card Image" />
+          <div class="card-content">
+            <h3>Balla-Ballayya</h3>
+            <p>
+              Temukan surga tersembunyi. Pantai Balla-Ballayya adalah ketenangan
+              dengan pasir selembut sutra dan tebing karang memesona. Di sini,
+              kamu bisa menikmati keindahan alam dalam kesunyian yang magis.
+            </p>
+            <a href="detail_wisata_ballaballa.html">
+              <button>Selengkapnya</button>
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="asset/puncak/Puncak1.jpg" alt="Card Image" />
+          <div class="card-content">
+            <h3>Puncak Pua' Janggo'</h3>
+            <p>
+              Tantang adrenalinmu! Daki Puncak Pua Janggo dan raih panorama
+              menakjubkan. Birunya samudra membentang luas, berpadu dengan
+              hijaunya daratan, dijamin membuatmu merasa di 'atas dunia.'
+            </p>
+            <a href="detail_wisata_puncakpuajanggo.html">
+              <button>Selengkapnya</button>
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="asset/pinisi/pinisi1.jpg" alt="Card Image" />
+          <div class="card-content">
+            <h3>Pembuatan Kapal Phinisi</h3>
+            <p>
+              Tradisi maritim Suku Konjo di Bulukumba yang diakui UNESCO. Kapal
+              dirakit tanpa paku besi dengan keahlian turun-temurun,
+              menghasilkan layar tangguh nan legendaris.
+            </p>
+            <a href="detail_wisata_phinisi.html">
+              <button>Selengkapnya</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Card Wisata End -->
+
+    <!-- Card UMKM Start -->
+    <section id="umkm">
+      <div class="header-umkm">
+        <h2>Produk Lokal Unggulan</h2>
+        <p>Kenali dan dukung UMKM di desa Bira dengan produk berkualitas.</p>
+      </div>
+      <div class="card-container">
+        <div class="card">
+          <img src="asset/tenun/Tenun1.jpg" alt="Card Image" />
+          <div class="card-content">
+            <h3>Tenun Bira</h3>
+            <p>
+              kain tradisional dari Desa Bira yang ditenun oleh para perempuan,
+              dengan motif unik yang kaya nilai budaya, tenun ini menjadi
+              warisan berharga dan memiliki potensi ekonomi yang terus
+              dilestarikan.
+            </p>
+            <a href="detail_umkm_tenunbira.html">
+              <button>Selengkapnya</button>
+            </a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="asset/uhuuhu/uhuuhu1.jpg" alt="Card Image" />
+          <div class="card-content">
+            <h3>Uhu-Uhu</h3>
+            <p>
+              Camilan khas berbentuk jaring dengan balutan gula merah manis,
+              cocok sebagai teman kopi pagi. Juga kerap dijadikan hantaran pihak
+              laki-laki saat melamar ataupun menikah.
+            </p>
+            <a href="detail_umkm_uhuuhu.html">
+              <button>Selengkapnya</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Card UMKM End -->
+
+    <!-- Footer Start -->
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- Logo & Identitas -->
+        <div class="footer-logo">
+          <div class="logo-group">
+            <img src="asset/logo/logobulkum.png" alt="Logo 1" />
+            <img src="asset/logo/logoBiraBerdaya.png" alt="Logo 2" />
+            <img src="asset/logo/logounhas1.png" alt="Logo 3" />
+            <img src="asset/logo/logokknbira.png" alt="Logo 4" />
+          </div>
+          <h4>Jelajah Bira: Wisata dan UMKM</h4>
+          <p>
+            <span>Jelajah Bira: Wisata dan UMKM</span> merupakan situs web yang
+            memuat informasi lengkap seputar destinasi wisata alam yang
+            mempesona, tradisi budaya yang khas, serta produk-produk UMKM
+            unggulan dari Desa Bira. Melalui situs ini, pengunjung dapat
+            mengenal lebih dekat keindahan pantai, kekayaan kuliner, dan beragam
+            potensi desa lainnya. Tujuannya adalah menjadi jendela informasi
+            yang membantu wisatawan, pelaku usaha, dan masyarakat luas untuk
+            lebih memahami serta mencintai Desa Bira.
+          </p>
+        </div>
+
+        <!-- Harapan & Tujuan -->
+        <div class="footer-harapan">
+          <h4>Harapan &amp; Tujuan</h4>
+          <p>
+            Situs web profil ini dibuat sebagai sarana promosi dan publikasi
+            Desa Bira, dengan tujuan memperkenalkan berbagai potensi wisata
+            alam, budaya, dan produk UMKM khas Desa kepada masyarakat luas.
+            Melalui platform ini, diharapkan dapat terjalin koneksi antara
+            masyarakat lokal dan wisatawan, sehingga mendukung pertumbuhan
+            ekonomi kreatif, melestarikan warisan budaya, serta memberikan
+            dampak positif bagi kesejahteraan warga Desa Bira.
+          </p>
+        </div>
+
+        <!-- Kontak -->
+        <div class="footer-contact">
+          <h4>Kontak</h4>
+          <p>
+            📍 Desa Bira, Kec. Bonto Bahari, Kab. Bulukumba, Sulawesi Selatan
+          </p>
+          <a href="https://maps.app.goo.gl/jv5zFtK7mURvQ8u89" target="_blank"
+            >📌 Lihat di Google Maps</a
+          >
+        </div>
+
+        <div class="footer-nav-social">
+          <!-- Navigasi Cepat -->
+          <div class="footer-links">
+            <h4>Navigasi</h4>
+            <ul>
+              <li><a href="#home">Beranda</a></li>
+              <li><a href="#about">Tentang</a></li>
+              <li><a href="#wisata">Wisata</a></li>
+              <li><a href="#umkm">UMKM</a></li>
+            </ul>
+          </div>
+
+          <!-- Sosial Media -->
+          <div class="footer-social">
+            <h4>Ikuti Kami</h4>
+            <div class="social-icons">
+              <a href="https://www.instagram.com/bira.berdaya/"
+                ><i data-feather="instagram"></i
+              ></a>
+              <a href="https://www.youtube.com/@biraberdaya7294"
+                ><i data-feather="youtube"></i
+              ></a>
+              <a href="https://www.facebook.com/pemdes.bira.7?mibextid=ZbWKwL"
+                ><i data-feather="facebook"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Copyright -->
+      <div class="footer-bottom">
+        <p>
+          © 2025 Jelajah Bira. Dibuat oleh Tim KKN Unhas Gelombang 114. All
+          Rights Reserved.
+        </p>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- Javascript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
